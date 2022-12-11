@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мое маленькое резюме</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="wrapper">
-      <header class="four"><h1>Мое маленькое резюме</h1></header>
       <main>
         <div class="head">
           <div class="FIO">
@@ -18,26 +18,48 @@
           </div>
           <img
             class="photo"
-            src="images/photo.jpg"
+            src="images/av.jpg"
             alt="My photo"
             title="Моя фотография"
           />
         </div>
-        <p>
-          <b>Специальность:</b> математика и информационные технологии
-          (математическое и программное обеспечение мобильных устройств).
-        </p>
-        <p>
-          <b>Образование:</b> СШ №145 г.Минска, в данный момент обучаюсь в БГУ
-          на механико-Математическом факультете.
-        </p>
-        <p><b>Место проживания:</b> г.Минск.</p>
-        <p>
-          <b>Навыки:</b> C++, js, React, html, css, WordPress, Photoshop,
-          Illustrator.
-        </p>
-        <p>В рамках курса "Веб-программирование" было выполнено задание:</p>
-        <a href="https://todo-three-lake.vercel.app/">Перейти на сайт</a>
+        <div class="generalInf">
+          <p>
+            <b>Специальность:</b> математика и информационные технологии
+            (математическое и программное обеспечение мобильных устройств).
+          </p>
+          <p>
+            <b>Образование:</b> СШ №145 г.Минска, в данный момент обучаюсь в БГУ
+            на механико-Математическом факультете.
+          </p>
+          <p><b>Место проживания:</b> г.Минск.</p>
+          <p>
+            <b>Навыки:</b> C++, js, React, html, css, WordPress, Photoshop,
+            Illustrator.
+          </p>
+        </div>
+        <div class="workEx">
+          <h4>Todo list</h4>
+          <p>
+            Задание было выполненно рамках курса "Веб-программирование" с
+            использованием JavaScript-библиотеки React. В Todo list можно
+            добавлять, удалять и "отмечать" заметки.
+          </p>
+          <img
+            class="todo"
+            src="images/todo.jpg"
+            alt="Todo list"
+            title="Todo list"
+          />
+          <div class="links">
+            <a href="https://todo-three-lake.vercel.app/" target="_blank"
+              >Перейти на сайт</a
+            >
+            <a href="https://github.com/kate4921/todo" target="_blank"
+              >Код на github</a
+            >
+          </div>
+        </div>
       </main>
     </div>
     <footer class="footer">
